@@ -1,11 +1,11 @@
 <?php
 /*
-	Plugin Name: WP Compiler
-	Plugin URI: https://github.com/burlingtonbytes/WP-Compiler
+	Plugin Name: WP Compiler (Updated)
+	Plugin URI: https://github.com/mshihinski/WP-Compiler
 	Description: Compiles and minifies SCSS, LESS and JS
-	Author: Bytes Co
-	Author URI: https://bytes.co
-	Version: 1.0.0
+	Author: Michael Shihinksi
+	Author URI: https://github.com/mshihinski/
+	Version: 2.0.0
 */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once 'vendor/autoload.php';
 
-use Leafo\ScssPhp\Compiler;
+use ScssPhp\ScssPhp\Compiler;
 use MatthiasMullie\Minify\Minify as Minify;
 if ( ! class_exists( "WP_Compiler" ) ) {
 	class WP_Compiler {
