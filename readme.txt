@@ -1,8 +1,8 @@
-=== WP Compiler ===
-Contributors: burlingtonbytes gschoppe
+=== WP Compiler (Updated) ===
+Contributors: burlingtonbytes gschoppe, mshihinski
 Tags: sass, scss, less, compiled, styles, workflow, build tools, minified, minify, uglify, uglified, combined, manifest, include, enqueue, grunt, gulp, webpack
 Requires at least: 4.8
-Tested up to: 5.0
+Tested up to: 5.5.1
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
@@ -16,7 +16,7 @@ Harness the power of pre-processed CSS and minified JS in your theme or plugin, 
 
 When you're ready to launch a new site, just turn off Dev Mode, and your styles and javascript will be compiled & minimized and comments & source maps will be removed. With Dev mode disabled, Compiler will stop watching source directories, so there is no effect on site performance, but you can still apply a quick change at any time, by clicking the compile button in the admin toolbar.
 
-WP Compiler relies on [scssphp](http://leafo.github.io/scssphp/), [lessphp](http://lessphp.typesettercms.com/), and [minify](https://www.minifier.org/).
+WP Compiler relies on [scssphp](https://scssphp.github.io/scssphp/), [lessphp](https://github.com/wikimedia/less.php), and [minify](https://www.minifier.org/).
 Specific issues with the underlying compilation libraries should be submitted to their respective developers.
 
 == Installation ==
@@ -63,6 +63,9 @@ Unfortunately, there is a limit to how many of the immense number of node.js bui
 3. The settings page
  
 == Changelog ==
+
+= 2.0 =
+* Updated outdated libraries.
  
 = 1.0 =
 * Initial Release
